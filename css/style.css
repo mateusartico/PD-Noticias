@@ -8,6 +8,7 @@
 }
 
 footer {
+    margin: 20px 0 0;
     height: 15vh;
     display: flex;
     justify-content: center;
