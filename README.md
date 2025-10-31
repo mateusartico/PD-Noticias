@@ -29,27 +29,17 @@ O projeto foi desenvolvido em **HTML** e **CSS**, seguindo uma estrutura organiz
 
 ---
 
-## Processo de Criação do Repositório
+## Processo de Criação do Repositório, Commits e PRs
 
-**Print 1:** Criação do repositório local  
-_(inserir imagem aqui)_
+**Print 1:** Criação do repositório local
 
-**Print 2:** Adição dos arquivos do projeto  
-_(inserir imagem aqui)_
+![Criação do repositório local](img/criando-repositorio.png)
 
-**Print 3:** Primeiro commit realizado  
-_(inserir imagem aqui)_
+**Print 2:** Primeiro commit realizado
 
-**Print 4:** Criação do repositório remoto no GitHub  
-_(inserir imagem aqui)_
+![Estrutura do projeto e Primeiro commit](img/estruturando-projeto.png)
 
-**Print 5:** Conexão entre repositório local e remoto  
-_(inserir imagem aqui)_
-
-**Print 6:** Envio dos arquivos para o GitHub  
-_(inserir imagem aqui)_
-
-**Print 7:** Primeiro Pull Request aberto
+**Print 3:** Primeiro Pull Request aberto
 
 _![Primeiro Pull Resquest](img/PR-Roger.png)_
 
