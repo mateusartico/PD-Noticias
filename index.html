@@ -5,91 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PD Noticias</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Oswald (fonte) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Newsreader (fonte) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
-      <div>
-        <img src="" />
-        <h1>PD Noticias</h1>
+      <div id="title-area">
+        <img src="images/logo_pd_case.png" />
+        <div>
+          <h1>Notícias</h1>
+          <p>Seu principal veículo de notícias dentro da PD Case.</p>
+        </div>
       </div>
 
       <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Noticias</a>
-        <a href="#">Contato</a>
+        <a href="#">Início</a>
+        <a href="#main-new">Notícias</a>
+        <a href="#footer">Contato</a>
       </nav>
     </header>
-    <main>
-      <div>
-        <h2>
-          Mineira PD Case investe R$ 46,8 milhões em plataforma de IA para o
-          setor financeiro
-        </h2>
-        <p>
-          <strong>
-            Desenvolvimento do projeto envolverá cerca de 90 profissionais
-            qualificados nas áreas de BI, arquitetura e desenvolvimento de
-            software, entre outros
-          </strong>
-        </p>
-        <p>
-          A PD Case Informática Ltda., com sede em Nova Lima, na Região
-          Metropolitana de Belo Horizonte (RMBH), investirá R$ 46,8 milhões em
-          inovação tecnológica. A empresa pretende desenvolver uma nova
-          plataforma com inteligência artificial (IA) voltada para o segmento
-          financeiro. O valor foi financiado pelo Banco Nacional de
-          Desenvolvimento Econômico e Social (BNDES) pelo programa BNDES Mais
-          Inovação.
-        </p>
+    <div class="content-wrapper">
+      <div id="news-area">
+        <main id="main-new">
+          <div id="news-title">
+            <div>
+              <h2>
+                Mineira PD Case investe R$ 46,8 milhões em plataforma de IA para
+                o setor financeiro
+              </h2>
+              <p id="news-description">
+                Desenvolvimento do projeto envolverá cerca de 90 profissionais
+                qualificados nas áreas de BI, arquitetura e desenvolvimento de
+                software, entre outros
+              </p>
+            </div>
+            <div>
+              <img src="images/noticia-principal.jpg" alt="Notícia Principal" />
+            </div>
+          </div>
+          <div id="news-content">
+            <p>
+              A PD Case Informática Ltda., com sede em Nova Lima, na Região
+              Metropolitana de Belo Horizonte (RMBH), investirá R$ 46,8 milhões
+              em inovação tecnológica. A empresa pretende desenvolver uma nova
+              plataforma com inteligência artificial (IA) voltada para o
+              segmento financeiro. O valor foi financiado pelo Banco Nacional de
+              Desenvolvimento Econômico e Social (BNDES) pelo programa BNDES
+              Mais Inovação.
+            </p>
+          </div>
+        </main>
+        <section>
+          <article>
+            <h2>Curiosidade: O café aumenta mesmo a produtividade?</h2>
+            <p>
+              Pesquisas mostram que o café pode melhorar o foco e a disposição —
+              mas apenas em doses moderadas...
+            </p>
+            <a href="#">Saiba mais</a>
+          </article>
+
+          <article>
+            <h2>Semana da Integração PD começa na próxima segunda-feira!</h2>
+            <p>
+              De 4 a 8 de novembro, teremos atividades, palestras e desafios com
+              prêmios incríveis para as equipes...
+            </p>
+            <a href="#">Saiba mais</a>
+          </article>
+
+          <article>
+            <h2>IA já auxilia na rotina de trabalho</h2>
+            <p>
+              Ferramentas de Inteligência Artificial estão ajudando times a
+              automatizar relatórios e análises...
+            </p>
+            <a href="#">Saiba mais</a>
+          </article>
+        </section>
       </div>
-      <div>
-        <img src="img/noticia-principal.jpg" alt="Notícia Principal" />
-      </div>
-    </main>
-    <section>
-      <article>
-        <h2>Curiosidade: O café aumenta mesmo a produtividade?</h2>
-        <p>
-          Pesquisas mostram que o café pode melhorar o foco e a disposição — mas
-          apenas em doses moderadas...
-        </p>
-        <a href="#">Saiba mais</a>
-      </article>
+      <aside>
+        <h3>Mais lidas</h3>
+        <ul>
+          <li><a href="#">PD lança novo programa de bem-estar</a></li>
+          <li><a href="#">Conheça os novos talentos da empresa</a></li>
+          <li><a href="#">Dicas para equilibrar trabalho e vida pessoal</a></li>
+        </ul>
 
-      <article>
-        <h2>Semana da Integração PD começa na próxima segunda-feira!</h2>
-        <p>
-          De 4 a 8 de novembro, teremos atividades, palestras e desafios com
-          prêmios incríveis para as equipes...
-        </p>
-        <a href="#">Saiba mais</a>
-      </article>
-
-      <article>
-        <h2>IA já auxilia na rotina de trabalho</h2>
-        <p>
-          Ferramentas de Inteligência Artificial estão ajudando times a
-          automatizar relatórios e análises...
-        </p>
-        <a href="#">Saiba mais</a>
-      </article>
-    </section>
-    <aside>
-      <h3>Mais lidas</h3>
-      <ul>
-        <li><a href="#">PD lança novo programa de bem-estar</a></li>
-        <li><a href="#">Conheça os novos talentos da empresa</a></li>
-        <li><a href="#">Dicas para equilibrar trabalho e vida pessoal</a></li>
-      </ul>
-
-      <h3>Agenda da Semana</h3>
-      <ul>
-        <li>Segunda: Abertura da Semana da Integração</li>
-        <li>Quarta: Workshop de Comunicação Interna</li>
-        <li>Sexta: Entrega dos brindes e encerramento</li>
-      </ul>
-    </aside>
-    <footer>
+        <h3>Agenda da Semana</h3>
+        <ul>
+          <li>Segunda: Abertura da Semana da Integração</li>
+          <li>Quarta: Workshop de Comunicação Interna</li>
+          <li>Sexta: Entrega dos brindes e encerramento</li>
+        </ul>
+      </aside>
+    </div>
+    <footer id="footer">
       <p>&copy; PD Case. Todos os direitos reservados.</p>
     </footer>
   </body>
