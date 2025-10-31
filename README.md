@@ -24,8 +24,10 @@ O projeto foi desenvolvido em **HTML** e **CSS**, seguindo uma estrutura organiz
 - `feat/article (Roger)`
 - `feat/aside (Roger)`
 - `feat/footer (Mateus)`
-- `feat/style (Mateus)`
+- `feat/nav (Mateus)`
 - `docs/readme (Roger)`
+- `style/first-style (Mateus e Roger)`
+- `style/footer (Mateus)`
 
 ---
 
